@@ -1,11 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi portafolio</title>
+    <title>Kevin | Desarrollador Full Stack</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="header__logo">&lt;Dev /&gt;</a>
+
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="#" class="header__link">Inicio</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Sobre Mí</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Proyectos</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Habilidades</a></li>
+                    <li class="header__item"><a href="#" class="header__link">GitHub</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <a href="#" class="btn btn--white header__btn">Contáctame</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+
+                <!-- Badge -->
+                <div class="hero__badge">
+                    <span class="hero__badge-dot"></span>
+                    4+ años de experiencia
+                </div>
+
+                <!-- Titles -->
+                <h2 class="hero__subtitle">Hola, soy</h2>
+                <h1 class="hero__title">
+                    Desarrollador <span class="text-gradient">Full Stack</span>
+                </h1>
+
+                <p class="hero__description">
+                    Creando experiencias digitales excepcionales con código limpio y arquitecturas escalables
+                </p>
+
+                <!-- Buttons -->
+                <div class="hero__actions">
+                    <a href="#" class="btn btn--primary">
+                        Ver Proyectos <i class="ri-arrow-right-line"></i>
+                    </a>
+                    <a href="#" class="btn btn--outline">
+                        Descargar CV <i class="ri-download-line"></i>
+                    </a>
+                </div>
+
+                <!-- Tech Stack Icons -->
+                <div class="hero__stack">
+                    <i class="ri-reactjs-line"></i>
+                    <i class="ri-database-2-line"></i>
+                    <i class="ri-code-s-slash-line"></i>
+                </div>
+
+                <!-- Floating Code Cards -->
+                <!-- Card 1: Top Left -->
+                <div class="code-card code-card--left glass-effect">
+                    <div class="code-card__header">
+                        <span class="dot dot--red"></span>
+                        <span class="dot dot--yellow"></span>
+                        <span class="dot dot--green"></span>
+                    </div>
+                    <pre><code class="language-javascript"><span class="kwd">const</span> <span class="var">developer</span> = {
+<span class="prop">name</span>: <span class="str">'Full Stack'</span>,
+<span class="prop">exp</span>: <span class="str">'4+ años'</span>
+};</code></pre>
+                </div>
+
+                <!-- Card 2: Right -->
+                <div class="code-card code-card--right glass-effect">
+                    <div class="code-card__header">
+                        <span class="dot dot--red"></span>
+                        <span class="dot dot--yellow"></span>
+                        <span class="dot dot--green"></span>
+                    </div>
+                    <pre><code class="language-javascript"><span class="func">app.get</span>(<span class="str">'/api'</span>, (req, res) => {
+<span class="obj">res</span>.<span class="func">json</span>(data)
+})</code></pre>
+                </div>
+
+                <!-- Card 3: Bottom Right -->
+                <div class="code-card code-card--bottom glass-effect">
+                    <div class="code-card__header">
+                        <span class="dot dot--red"></span>
+                        <span class="dot dot--yellow"></span>
+                        <span class="dot dot--green"></span>
+                    </div>
+                    <pre><code class="language-css"><span class="sel">.container</span> {
+<span class="prop">display</span>: flex;
+<span class="prop">gap</span>: 2rem;
+}</code></pre>
+                </div>
+
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
