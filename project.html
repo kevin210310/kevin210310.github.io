@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Platform | Kevin Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo">&lt;Dev /&gt;</a>
+
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="index.html" class="header__link">Inicio</a></li>
+                    <li class="header__item"><a href="index.html#projects" class="header__link">Proyectos</a></li>
+                    <li class="header__item"><a href="#" class="btn btn--primary">Contáctame</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="project-detail">
+        <div class="container">
+
+            <!-- Project Header -->
+            <div class="project-header">
+                <span class="project-badge project-badge--web">Web App</span>
+                <h1 class="project-title">E-Commerce Platform</h1>
+                <p class="project-subtitle">Una experiencia de compra completa y segura.</p>
+            </div>
+
+            <!-- Carousel -->
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide active">
+                        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                            alt="Vista General">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                            alt="Panel de Pagos">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                            alt="Dashboard Admin">
+                    </div>
+                </div>
+
+                <button class="carousel-btn prev-btn"><i class="ri-arrow-left-s-line"></i></button>
+                <button class="carousel-btn next-btn"><i class="ri-arrow-right-s-line"></i></button>
+
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <!-- Content Grid -->
+            <div class="project-content-grid">
+
+                <!-- Main Info -->
+                <div class="project-main-info">
+                    <h2 class="section-title text-start">Descripción</h2>
+                    <p class="project-desc-text">
+                        Esta plataforma de comercio electrónico fue diseñada para escalar. Implementa una arquitectura
+                        moderna de microservicios para manejar el inventario, los usuarios y los pagos de manera
+                        independiente.
+                    </p>
+                    <p class="project-desc-text">
+                        La interfaz de usuario se centra en la velocidad y la accesibilidad, asegurando que los clientes
+                        puedan encontrar y comprar productos en la menor cantidad de pasos posible. El panel de
+                        administración proporciona métricas en tiempo real y herramientas de gestión de inventario sin
+                        fricción.
+                    </p>
+
+                    <h3 class="feature-title">Características Clave</h3>
+                    <ul class="feature-list">
+                        <li><i class="ri-check-line"></i> Autenticación segura con JWT y OAuth.</li>
+                        <li><i class="ri-check-line"></i> Pasarela de pagos integrada con Stripe SDK.</li>
+                        <li><i class="ri-check-line"></i> Búsqueda avanzada con filtrado en tiempo real.</li>
+                        <li><i class="ri-check-line"></i> Diseño totalmente responsive y PWA ready.</li>
+                    </ul>
+
+                    <div class="project-links-row">
+                        <a href="#" class="btn btn--primary">
+                            <i class="ri-external-link-line"></i> Ver Demo en Vivo
+                        </a>
+                        <a href="#" class="btn btn--outline">
+                            <i class="ri-github-line"></i> Ver Código
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Sidebar / Tech Stack -->
+                <aside class="project-sidebar">
+                    <div class="tech-card tech-card--blue" style="margin-bottom: 2rem;">
+                        <h3 class="sidebar-title">Tecnologías</h3>
+                        <div class="tech-icons" style="grid-template-columns: repeat(4, 1fr);">
+                            <div class="tech-item"><i class="ri-reactjs-line"></i></div>
+                            <div class="tech-item"><i class="ri-nodejs-line"></i></div>
+                            <div class="tech-item"><i class="ri-database-2-line"></i></div>
+                            <div class="tech-item"><i class="ri-tailwind-css-line"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="tech-card" style="padding: 1.5rem;">
+                        <h3 class="sidebar-title">Librerías & Herramientas</h3>
+                        <div class="tags-container">
+                            <span class="tag">Redux Toolkit</span>
+                            <span class="tag">Stripe API</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">Framer Motion</span>
+                            <span class="tag">Axios</span>
+                            <span class="tag">Formik</span>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a href="index.html" class="header__logo">&lt;Dev /&gt;</a>
+                    <p class="footer__desc">
+                        Desarrollador Full Stack creando soluciones digitales innovadoras.
+                    </p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Navegación</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Inicio</a></li>
+                        <li><a href="index.html#projects" class="footer__link">Proyectos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Desarrollador Full Stack.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
