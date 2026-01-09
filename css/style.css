@@ -369,6 +369,8 @@ ul {
     padding-top: calc(var(--header-height) + 2rem) !important;
     padding: var(--spacing-lg) 0;
     position: relative;
+    background: #1A1A1A;
+    background: linear-gradient(360deg, rgba(26, 26, 26, 1) 50%, rgba(0, 0, 0, 0.03) 100%);
 }
 
 .about__container {
@@ -706,6 +708,7 @@ ul {
 
 /* --- Tech Stack Section --- */
 .tech-stack {
+    background-color: #1A1A1A;
     padding-top: calc(var(--header-height) + 2rem) !important;
     padding: var(--spacing-lg) 0;
 }
@@ -717,13 +720,13 @@ ul {
 }
 
 .tech-card {
-    background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--glass-border);
     border-radius: 16px;
     padding: 2rem;
     transition: var(--transition-fast);
     position: relative;
     overflow: hidden;
+    color: #FFFFFF;
 }
 
 .tech-card:hover {
@@ -742,16 +745,19 @@ ul {
     border-bottom: 1px solid var(--glass-border);
 }
 
-.tech-card--blue .tech-card__header {
-    color: #61DAFB;
+.tech-card--blue {
+    background: rgba(26, 38, 75);
+    border: 2px solid #11526C;
 }
 
-.tech-card--green .tech-card__header {
-    color: #00ac56;
+.tech-card--green {
+    background: rgba(22, 51, 33);
+    border: 2px solid #0E6C3D;
 }
 
-.tech-card--orange .tech-card__header {
-    color: #ff5f56;
+.tech-card--orange {
+    background: rgb(69, 33, 21);
+    border: 2px solid #78351E;
 }
 
 /* Background Glow */
@@ -769,6 +775,7 @@ ul {
 
 .tech-card--blue {
     --glow-color: #61DAFB;
+
 }
 
 .tech-card--green {
@@ -791,7 +798,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    color: var(--text-secondary);
+    color: #C2BDBC;
     transition: var(--transition-fast);
     padding: 2rem auto;
     border-radius: 8px;
@@ -819,10 +826,17 @@ ul {
 .experience {
     padding-top: calc(var(--header-height) + 2rem) !important;
     padding: var(--spacing-lg) 0;
+    background-color: #1A1A1A;
+}
+
+.experience-container {
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
 }
 
 .experience-item {
-    padding: var(--spacing-xs) 0;
+    padding: var(--spacing-sm) 0;
 }
 
 .experience-percent {
@@ -831,7 +845,7 @@ ul {
 
 .experience-bar {
     width: 100%;
-    height: 10px;
+    height: 15px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
     overflow: hidden;
@@ -844,7 +858,7 @@ ul {
 }
 
 .fill-blue {
-    background: #61DAFB;
+    background: linear-gradient(88deg, #00dcfb, #00ff87);
     box-shadow: 0 0 10px rgba(97, 218, 251, 0.5);
 }
 
@@ -853,7 +867,7 @@ ul {
 }
 
 .fill-purple {
-    background: #b967ff;
+    background: linear-gradient(88deg, #8b42ff, #23c9ff);
     box-shadow: 0 0 10px rgba(185, 103, 255, 0.5);
 }
 
@@ -871,7 +885,7 @@ ul {
 }
 
 .fill-green {
-    background: #27c93f;
+    background: linear-gradient(106deg, #6c57fd, #08b3ea);
     box-shadow: 0 0 10px rgba(39, 201, 63, 0.5);
 }
 
@@ -880,7 +894,7 @@ ul {
 }
 
 .fill-orange {
-    background: #ffbd2e;
+    background: linear-gradient(79deg, #ff7639, #25cdf2);
     box-shadow: 0 0 10px rgba(255, 189, 46, 0.5);
 }
 
