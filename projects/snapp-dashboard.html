@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Platform | Kevin Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="../index.html" class="header__logo">&lt;Dev /&gt;</a>
+
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="index.html" class="header__link">Inicio</a></li>
+                    <li class="header__item"><a href="index.html#projects" class="header__link">Proyectos</a></li>
+                    <li class="header__item"><a href="#" class="btn btn--primary">Contáctame</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="project-detail">
+        <div class="container">
+
+            <!-- Project Header -->
+            <div class="project-header">
+                <span class="project-badge project-badge--web">Web App</span>
+                <h1 class="project-title">Administrador de Concesionarios</h1>
+                <p class="project-subtitle">Visualice y administre los activos de sus concesionarios.</p>
+            </div>
+
+            <!-- Carousel -->
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide active">
+                        <img src="../assets/img/projects/snapp-dashboard/home.jpg" alt="Vista General">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/snapp-dashboard/locations.jpg" alt="Panel de Ubicaciones">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/snapp-dashboard/collection.jpg" alt="Panel de recaudaciónes">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="  ../assets/img/projects/snapp-dashboard/payments.jpg" alt="Panel de abonos">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/snapp-dashboard/support.jpg" alt="Panel de soporte">
+                    </div>
+                </div>
+
+                <button class="carousel-btn prev-btn"><i class="ri-arrow-left-s-line"></i></button>
+                <button class="carousel-btn next-btn"><i class="ri-arrow-right-s-line"></i></button>
+
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <!-- Content Grid -->
+            <div class="project-content-grid">
+
+                <!-- Main Info -->
+                <div class="project-main-info">
+                    <h2 class="section-title text-start">Descripción</h2>
+                    <p class="project-desc-text">
+                        Esta plataforma fue mejorada de una versión anterior, con un diseño más moderno y una
+                        experiencia
+                        de usuario más fluida.
+                    </p>
+                    <p class="project-desc-text">
+                        La interfaz de usuario se centra en la visualización de recaudaciónes de sus sitios en donde
+                        tienen instalados sus dispositivos IoT, ademas de
+
+                    </p>
+
+                    <h3 class="feature-title">Características Clave</h3>
+                    <ul class="feature-list">
+                        <li><i class="ri-check-line"></i> Autenticación segura con JWT.</li>
+                        <li><i class="ri-check-line"></i> Servicio MQTT para la recepción de datos de los dispositivos
+                            IoT.</li>
+                        <li><i class="ri-check-line"></i> Abonos a billeteras digitales.</li>
+                        <li><i class="ri-check-line"></i> Activación de equipos.</li>
+                        <li><i class="ri-check-line"></i> Soporte técnico.</li>
+                    </ul>
+
+                    <!-- <div class="project-links-row">
+                        <a href="#" class="btn btn--primary">
+                            <i class="ri-external-link-line"></i> Ver Demo en Vivo
+                        </a>
+                        <a href="#" class="btn btn--outline">
+                            <i class="ri-github-line"></i> Ver Código
+                        </a>
+                    </div> -->
+                </div>
+
+                <!-- Sidebar / Tech Stack -->
+                <aside class="project-sidebar">
+                    <div class="tech-card tech-card--blue" style="margin-bottom: 2rem;">
+                        <h3 class="sidebar-title">Tecnologías</h3>
+                        <div class="tech-icons" style="grid-template-columns: repeat(4, 1fr);">
+                            <div class="tech-item"><i class="ri-angularjs-line"></i> <span>Angular</span></div>
+                            <div class="tech-item"><i class="ri-tailwind-css-line"></i> <span>Tailwind</span></div>
+                            <div class="tech-item"><i class="ri-javascript-line"></i> <span>JavaScript</span></div>
+                            <div class="tech-item"><i class="ri-code-s-slash-line"></i> <span>TypeScript</span></div>
+                            <div class="tech-item"><i class="ri-nodejs-line"></i> <span>Express</span></div>
+                            <div class="tech-item"><i class="ri-database-2-line"></i> <span>PostgreSQL</span></div>
+                            <div class="tech-item"><i class="ri-rfid-line"></i> <span>RFID</span></div>
+                        </div>
+                    </div>
+
+                    <div class="tech-card" style="padding: 1.5rem;">
+                        <h3 class="sidebar-title">Librerías & Herramientas</h3>
+                        <div class="tags-container">
+                            <span class="tag">Sequelize</span>
+                            <span class="tag">Fintoc</span>
+                            <span class="tag">Transbank</span>
+                            <span class="tag">Framer Motion</span>
+                            <span class="tag">Xlsx</span>
+                            <span class="tag">Axios</span>
+                            <span class="tag">AWS S3</span>
+                            <span class="tag">AWS SES</span>
+                            <span class="tag">Jsonwebtoken</span>
+                            <span class="tag">Multer</span>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a href="index.html" class="header__logo">&lt;Dev /&gt;</a>
+                    <p class="footer__desc">
+                        Desarrollador Full Stack creando soluciones digitales innovadoras.
+                    </p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Navegación</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Inicio</a></li>
+                        <li><a href="index.html#projects" class="footer__link">Proyectos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Desarrollador Full Stack.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
