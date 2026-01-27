@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapp App | Kevin Portafolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="../index.html#projects" class="header__logo">&lt;Dev /&gt;</a>
+
+            <!-- <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="index.html" class="header__link">Inicio</a></li>
+                    <li class="header__item"><a href="index.html#projects" class="header__link">Proyectos</a></li>
+                    <li class="header__item"><a href="#" class="btn btn--primary">Contáctame</a></li>
+                </ul>
+            </nav> -->
+        </div>
+    </header>
+
+    <main class="project-detail">
+        <div class="container">
+
+            <!-- Project Header -->
+            <div class="project-header">
+                <span class="project-badge project-badge--web">SPA Responsive</span>
+                <h1 class="project-title">Snapp App</h1>
+                <p class="project-subtitle">Una experiencia de compra completa y segura.</p>
+            </div>
+
+            <!-- Carousel -->
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide active">
+                        <img src="../assets/img/projects/snapp-app/home.png" alt="Vista General">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/snapp-app/cards.png" alt="Panel de Ubicaciones">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/snapp-app/shop_cart.png" alt="Panel de recaudaciónes">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/snapp-app/spinner.png" alt="Panel de abonos">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/snapp-app/login.png" alt="Panel de soporte">
+                    </div>
+                </div>
+
+                <button class="carousel-btn prev-btn"><i class="ri-arrow-left-s-line"></i></button>
+                <button class="carousel-btn next-btn"><i class="ri-arrow-right-s-line"></i></button>
+
+                <div class="carousel-dots">
+                </div>
+            </div>
+
+            <!-- Content Grid -->
+            <div class="project-content-grid">
+
+                <!-- Main Info -->
+                <div class="project-main-info">
+                    <h2 class="section-title text-start">Descripción</h2>
+                    <p class="project-desc-text">
+                        Esta plataforma de sistema de pagos de servicios de lavanderia en edificios se enfoca en la
+                        comodidad y la seguridad de los usuarios, permitiendo que puedan realizar pagos de manera rápida
+                        y segura.
+                    </p>
+                    <p class="project-desc-text">
+                        La aplicación tiene un diseño responsive y moderno, lo que la hace accesible desde cualquier
+                        dispositivo. Además, se utiliza una pasarela de pagos segura y confiable para garantizar que los
+                        pagos se realicen de manera segura y rápida. Posee una billetera digital para que puedas pagar
+                        de manera más cómoda y rápida.
+                    </p>
+
+                    <h3 class="feature-title">Características Clave</h3>
+                    <ul class="feature-list">
+                        <li><i class="ri-check-line"></i> Autenticación segura con JWT y OAuth.</li>
+                        <li><i class="ri-check-line"></i> Pasarela de pagos integrada con Webpay y Oneclick.</li>
+                        <li><i class="ri-check-line"></i> Escaneo de codigos QR para pagar servicios.</li>
+                        <li><i class="ri-check-line"></i> Billetera digital para pagar servicios.</li>
+                    </ul>
+                </div>
+
+                <!-- Sidebar / Tech Stack -->
+                <aside class="project-sidebar">
+                    <div class="tech-card tech-card--blue" style="margin-bottom: 2rem;">
+                        <h3 class="sidebar-title">Tecnologías</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item"><i class="ri-angularjs-line"></i> <span>Angular</span></div>
+                            <div class="tech-item"><i class="ri-code-line"></i> <span>Ionic</span></div>
+                            <div class="tech-item"><i class="ri-bootstrap-line"></i> <span>Bootstrap</span></div>
+                            <div class="tech-item"><i class="ri-nodejs-line"></i> <span>Express</span></div>
+                            <div class="tech-item"><i class="ri-database-2-line"></i> <span>PostgreSQL</span></div>
+                            <div class="tech-item"><i class="ri-rfid-line"></i> <span>MQTT</span></div>
+                            <div class="tech-item"><i class="ri-cloud-line"></i> <span>AWS</span></div>
+                        </div>
+                    </div>
+
+                    <div class="tech-card" style="padding: 1.5rem;">
+                        <h3 class="sidebar-title">Librerías & Herramientas</h3>
+                        <div class="tags-container">
+                            <span class="tag">rxjs</span>
+                            <span class="tag">qr-scanner</span>
+                            <span class="tag">fintoc</span>
+                            <span class="tag">axios</span>
+                            <span class="tag">angular forms</span>
+                            <span class="tag">bcrypt</span>
+                            <span class="tag">transbank-sdk</span>
+                            <span class="tag">jsonwebtoken</span>
+                            <span class="tag">sequelize</span>
+                            <span class="tag">multer</span>
+                            <span class="tag">S3</span>
+                            <span class="tag">SES</span>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a href="index.html" class="header__logo">&lt;Dev /&gt;</a>
+                    <p class="footer__desc">
+                        Desarrollador Full Stack creando soluciones digitales innovadoras.
+                    </p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Navegación</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Inicio</a></li>
+                        <li><a href="index.html#projects" class="footer__link">Proyectos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Desarrollador Full Stack.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
