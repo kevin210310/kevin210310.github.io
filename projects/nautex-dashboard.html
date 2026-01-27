@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nautex Dashboard | Kevin Portafolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="../index.html#projects" class="header__logo">&lt;Dev /&gt;</a>
+        </div>
+    </header>
+
+    <main class="project-detail">
+        <div class="container">
+
+            <!-- Project Header -->
+            <div class="project-header">
+                <span class="project-badge project-badge--web">SPA Responsive</span>
+                <h1 class="project-title">Nautex Dashboard</h1>
+                <p class="project-subtitle">Monitorea tus dispositivos de manera remota.</p>
+            </div>
+
+            <!-- Carousel -->
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide active">
+                        <img src="../assets/img/projects/nautex-dashboard/home.jpg" alt="Inicio de sesión">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/nautex-dashboard/alerts.jpg" alt="Panel de Alertas">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/nautex-dashboard/dashboard.jpg" alt="Panel de Inicio">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/nautex-dashboard/sensors.jpg" alt="Panel de Sensores">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/nautex-dashboard/users.jpg" alt="Panel de Usuarios">
+                    </div>
+                </div>
+
+                <button class="carousel-btn prev-btn"><i class="ri-arrow-left-s-line"></i></button>
+                <button class="carousel-btn next-btn"><i class="ri-arrow-right-s-line"></i></button>
+
+                <div class="carousel-dots">
+                </div>
+            </div>
+
+            <!-- Content Grid -->
+            <div class="project-content-grid">
+
+                <!-- Main Info -->
+                <div class="project-main-info">
+                    <h2 class="section-title text-start">Descripción</h2>
+                    <p class="project-desc-text">
+                        El dashboard de Nautex permite monitorear dispositivos IoT
+                        que estan en lugares de dificil acceso.</p>
+                    <p class="project-desc-text">
+                        La aplicación permite que dispositivos que se conectan a la red satelital envien
+                        su información hacia nuestro servidor, esta se procesa, monitorea (umbrales de alerta) y
+                        almacena en
+                        una base de datos. La app posee un panel que permite filtrar los sensores por fechas, umbrales y
+                        variables, generando un respectivo reporte.
+                        Tambien existe un panel generador de alertas con diferentes tipos de umbrales.
+                    </p>
+
+                    <h3 class="feature-title">Características Clave</h3>
+                    <ul class="feature-list">
+                        <li><i class="ri-check-line"></i> Autenticación segura con JWT y OAuth.</li>
+                        <li><i class="ri-check-line"></i> Generador de reportes de variables.</li>
+                        <li><i class="ri-check-line"></i> Mapa con ubicación de sensores.</li>
+                        <li><i class="ri-check-line"></i> Generador de alertas con diferentes tipos de umbrales.</li>
+                    </ul>
+                </div>
+
+                <!-- Sidebar / Tech Stack -->
+                <aside class="project-sidebar">
+                    <div class="tech-card tech-card--orange" style="margin-bottom: 2rem;">
+                        <h3 class="sidebar-title">Tecnologías</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item"><i class="ri-angularjs-line"></i> <span>Angular</span></div>
+                            <div class="tech-item"><i class="ri-tailwind-css-line"></i> <span>Tailwind</span></div>
+                            <div class="tech-item"><i class="ri-css3-line"></i> <span>Prime NG</span></div>
+                            <div class="tech-item"><i class="ri-nodejs-line"></i> <span>Express</span></div>
+                            <div class="tech-item"><i class="ri-database-2-line"></i> <span>PostgreSQL</span></div>
+                            <div class="tech-item"><i class="ri-rfid-line"></i> <span>IsatData Pro</span></div>
+                            <div class="tech-item"><i class="ri-cloud-line"></i> <span>AWS</span></div>
+                        </div>
+                    </div>
+
+                    <div class="tech-card" style="padding: 1.5rem;">
+                        <h3 class="sidebar-title">Librerías & Herramientas</h3>
+                        <div class="tags-container">
+                            <span class="tag">material</span>
+                            <span class="tag">google-maps</span>
+                            <span class="tag">prime-ng</span>
+                            <span class="tag">bcrypt</span>
+                            <span class="tag">rxjs</span>
+                            <span class="tag">d3</span>
+                            <span class="tag">axios</span>
+                            <span class="tag">ngx-charts</span>
+                            <span class="tag">ngx</span>
+                            <span class="tag">sweetalert</span>
+                            <span class="tag">jsonwebtoken</span>
+                            <span class="tag">sequelize</span>
+                            <span class="tag">exceljs</span>
+                            <span class="tag">node-cron</span>
+                            <span class="tag">SES</span>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a href="index.html" class="header__logo">&lt;Dev /&gt;</a>
+                    <p class="footer__desc">
+                        Desarrollador Full Stack creando soluciones digitales innovadoras.
+                    </p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Navegación</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Inicio</a></li>
+                        <li><a href="index.html#projects" class="footer__link">Proyectos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Desarrollador Full Stack.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

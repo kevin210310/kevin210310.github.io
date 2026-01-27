@@ -789,11 +789,19 @@ ul {
 
 .tech-icons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.tech-icons-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
 
 .tech-item {
+    box-sizing: border-box;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -802,6 +810,7 @@ ul {
     transition: var(--transition-fast);
     padding: 2rem auto;
     border-radius: 8px;
+
     background: rgba(255, 255, 255, 0.02);
 }
 
@@ -839,6 +848,12 @@ ul {
     padding: var(--spacing-sm) 0;
 }
 
+.experience-info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: var(--spacing-xs);
+}
+
 .experience-percent {
     font-family: var(--font-code);
 }
@@ -862,17 +877,9 @@ ul {
     box-shadow: 0 0 10px rgba(97, 218, 251, 0.5);
 }
 
-.text-blue {
-    color: #61DAFB;
-}
-
 .fill-purple {
     background: linear-gradient(88deg, #8b42ff, #23c9ff);
     box-shadow: 0 0 10px rgba(185, 103, 255, 0.5);
-}
-
-.text-purple {
-    color: #b967ff;
 }
 
 .fill-cyan {
@@ -880,17 +887,9 @@ ul {
     box-shadow: 0 0 10px rgba(0, 245, 192, 0.5);
 }
 
-.text-cyan {
-    color: var(--primary-color);
-}
-
 .fill-green {
     background: linear-gradient(106deg, #6c57fd, #08b3ea);
     box-shadow: 0 0 10px rgba(39, 201, 63, 0.5);
-}
-
-.text-green {
-    color: #27c93f;
 }
 
 .fill-orange {
@@ -898,8 +897,8 @@ ul {
     box-shadow: 0 0 10px rgba(255, 189, 46, 0.5);
 }
 
-.text-orange {
-    color: #ffbd2e;
+.text-color {
+    color: #FFFFFF;
 }
 
 /* --- Open Source Section --- */
