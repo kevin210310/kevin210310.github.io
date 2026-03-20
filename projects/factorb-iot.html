@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FactorB IoT | Kevin Portafolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="../index.html#projects" class="header__logo">&lt;Dev /&gt;</a>
+        </div>
+    </header>
+
+    <main class="project-detail">
+        <div class="container">
+
+            <!-- Project Header -->
+            <div class="project-header">
+                <span class="project-badge project-badge--web">Templated MPA</span>
+                <h1 class="project-title">FactorB IoT</h1>
+                <p class="project-subtitle">Gestiona tus dispositivos de manera remota.</p>
+            </div>
+
+            <!-- Carousel -->
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide active">
+                        <img src="../assets/img/projects/factorb-iot/login.png" alt="Inicio de sesión">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/factorb-iot/create-device.png" alt="Crear Dispositivo">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/factorb-iot/create-machine.png" alt="Panel de Inicio">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/factorb-iot/create-sensor.png" alt="Panel de Sensores">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/factorb-iot/device.png" alt="Panel de Usuarios">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/factorb-iot/home.png" alt="Panel de Usuarios">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/factorb-iot/maquinas.png" alt="Panel de Usuarios">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/factorb-iot/no-devices.png" alt="Panel de Usuarios">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/factorb-iot/pruebas.png" alt="Panel de Usuarios">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/factorb-iot/sensores.png" alt="Panel de Usuarios">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="../assets/img/projects/factorb-iot/sensores-2.png" alt="Panel de Usuarios">
+                    </div>
+                </div>
+
+                <button class="carousel-btn prev-btn"><i class="ri-arrow-left-s-line"></i></button>
+                <button class="carousel-btn next-btn"><i class="ri-arrow-right-s-line"></i></button>
+
+                <div class="carousel-dots">
+                </div>
+            </div>
+
+            <!-- Content Grid -->
+            <div class="project-content-grid">
+
+                <!-- Main Info -->
+                <div class="project-main-info">
+                    <h2 class="section-title text-start">Descripción</h2>
+                    <p class="project-desc-text">
+                        El dashboard de FactorB Iot permite visualizar los datos en tiempo real de sensores industriales, accionar equipos y tracking en tiempo real equipos.</p>
+                    <p class="project-desc-text">
+                        La aplicación permite agregar maquinas de manera sencilla, asignando dispositivos con sus sensores correspondientes. 
+                        Esto permite que sea plug and play, monitorear cualquier sensor que uno requiera siguiendo los estándares de la industria.
+                    </p>
+
+                    <h3 class="feature-title">Características Clave</h3>
+                    <ul class="feature-list">
+                        <li><i class="ri-check-line"></i> Autenticación segura con JWT.</li>
+                        <li><i class="ri-check-line"></i> Monitoreo de variables.</li>
+                        <li><i class="ri-check-line"></i> Mapa con ubicación de dispositivos GPS.</li>
+                        <li><i class="ri-check-line"></i> Accionamientos de dispositivos.</li>
+                    </ul>
+                </div>
+
+                <!-- Sidebar / Tech Stack -->
+                <aside class="project-sidebar">
+                    <div class="tech-card tech-card--orange" style="margin-bottom: 2rem;">
+                        <h3 class="sidebar-title">Tecnologías</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item"><i class="ri-html5-line"></i> <span>Handlerbars</span></div>
+                            <div class="tech-item"><i class="ri-bootstrap-line"></i> <span>Bootstrap</span></div>
+                            <div class="tech-item"><i class="ri-css3-line"></i> <span>Prime NG</span></div>
+                            <div class="tech-item"><i class="ri-nodejs-line"></i> <span>Express</span></div>
+                            <div class="tech-item"><i class="ri-database-line"></i> <span>MongoDB</span></div>
+                            <div class="tech-item"><i class="ri-rfid-line"></i> <span>MQTT</span></div>
+                            <div class="tech-item"><i class="ri-cloud-line"></i> <span>GPC</span></div>
+                        </div>
+                    </div>
+
+                    <div class="tech-card" style="padding: 1.5rem;">
+                        <h3 class="sidebar-title">Librerías & Herramientas</h3>
+                        <div class="tags-container">
+                            <span class="tag">google-iot-core</span>
+                            <span class="tag">google-pub/sub</span>
+                            <span class="tag">google-maps</span>
+                            <span class="tag">mongoose</span>
+                            <span class="tag">bcrypt</span>
+                            <span class="tag">charts.js</span>
+                            <span class="tag">Handlebars</span>
+                            <span class="tag">axios</span>
+                            <span class="tag">bootstrap</span>
+                            <span class="tag">jsonwebtoken</span>
+                            <span class="tag">Nginx</span>
+                            <span class="tag">VPC</span>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a href="index.html" class="header__logo">&lt;Dev /&gt;</a>
+                    <p class="footer__desc">
+                        Desarrollador Full Stack creando soluciones digitales innovadoras.
+                    </p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Navegación</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Inicio</a></li>
+                        <li><a href="index.html#projects" class="footer__link">Proyectos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Desarrollador Full Stack.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
